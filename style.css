@@ -6,7 +6,7 @@
 
 .container {
     width: 100%;
-    margin: 0px auto;
+    margin: 0px 20px;
     max-width: 1180px; 
     margin: 20px;/* ⚠️ ОБРАТИ ВНИМАНИЕ - максимальная ширина увеличилась на размер отступов, чтобы ширина контента оставалась корректной */
     /* 📍 Свойство для внутрених отступов */
@@ -14,7 +14,8 @@
 
 body {
     font-family: "Inter", sans-serif; 
-    color: #303030;
+    color: #303030; 
+    min-width: 375px;
     /* 📍 Минимальная ширина */ 
 }
 
@@ -216,7 +217,7 @@ footer {
 @media screen and (max-width: 1200px) {
     .main-section {
         min-height: auto;
-        bottom: 60px;
+        padding-bottom: 100px;
 
         /* 📍 Свойства для установки минимальной высоты секции по размеру контента и нижнего внутреннего отступа */
     }
@@ -236,7 +237,7 @@ footer {
     }
 
     .text-wrapper {
-        max-width: 85%;
+        max-width: 560px;
         /* 📍 Максимальная ширина для блока с текстом */
     }
 
@@ -270,7 +271,7 @@ footer {
     }
 
     .main-title {
-        font-size: 30px;
+        font-size: 36px;
         /* 📍 Размер шрифта */
     }
 
