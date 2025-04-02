@@ -8,7 +8,7 @@
     width: 100%;
     margin: 0px 20px;
     max-width: 1180px; 
-    margin: 20px;/* ⚠️ ОБРАТИ ВНИМАНИЕ - максимальная ширина увеличилась на размер отступов, чтобы ширина контента оставалась корректной */
+    padding: 0px 20px;/* ⚠️ ОБРАТИ ВНИМАНИЕ - максимальная ширина увеличилась на размер отступов, чтобы ширина контента оставалась корректной */
     /* 📍 Свойство для внутрених отступов */
 }
 
@@ -32,7 +32,8 @@ header span {
 
 .main-section {
     background-color: #fafaff;
-    padding: 60px 0;
+    /* padding: 60px 0; */
+    padding-bottom: 100px;
     min-height: 100vh;
     display: flex;
     align-items: center;
